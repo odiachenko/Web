@@ -1,0 +1,48 @@
+body, html {
+  width: 100%;
+  border: 1px solid gray;
+  margin: 0px;
+  padding: 0px;
+}
+#header {
+  background: orange;
+  padding: 1em;
+  color: white;
+  clear: both;
+  text-align: center;
+}
+#footer {
+    background: red;
+    padding: 1em;
+    color: white;
+    clear: both;
+    text-align: center;
+}
+#left {
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul a {
+    text-decoration: none;
+}
+    background: yellow;
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+
+}
+#right {
+    background: white;
+    margin-left: 160px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+
+
+}
+#container {
+    width: 100%;
+    margin: auto;
+}
