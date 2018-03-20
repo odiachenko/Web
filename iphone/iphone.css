@@ -1,0 +1,121 @@
+body, html {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+  t1 {
+    float: left;
+    width: 50%;
+  }
+  t2 #t3 #t4 {
+    float: right;
+    width: 50%;
+    margin: 0;
+    padding: 0.5em;
+  }
+  container {
+    width: 100%;
+    margin: auto;
+  }
+  #top {
+    background: #00C2A5;
+    height: 200px;
+  }
+    #left {
+      float: left;
+      width: 50%;
+      margin: 0;
+      padding: 0.5em;
+    }
+      #left img {
+        display: block;
+        width: 13%;
+        margin-left: 400px;
+      }
+    #right {
+      color: #FFFFFF;
+      margin-right: 100px;
+      text-align: left;
+    }
+      #right #post h1 {
+        text-align: left;
+        font-size: 24px;
+      }
+      #right #post #postinfo {
+        text-align: left;
+      }
+  #post {
+    width: 100%;
+    padding: 0.1em;
+  }
+  #post h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-size: 16px;
+  }
+  #postinfo {
+    color: #00000;
+    text-align: center;
+  }
+  #post p {
+    font-size: 16px;
+  }
+  button {
+    color: #FFFFFF;
+    background: #00C2A5;
+    height: 40px;
+    width: 150px;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+    font-size: 18px;
+  }
+  #middle {
+    background: #FFFFFF;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    margin: 1px auto;
+  }
+    #middle img {
+      display: block;
+      width: 7%;
+      margin: auto;
+    }
+    #column1 {
+      float: left;
+      width: 33%;;
+    }
+      #column1 #postinfo {
+        table-layout: fixed;
+        padding-left: 2em;
+      }
+      #column2 {
+        display: inline-block;
+        width: 33%;
+      }
+      #column2 #postinfo {
+        table-layout: fixed;
+      }
+      #column3 {
+        float: right;
+        width: 33%;
+      }
+      #column3 #postinfo {
+        padding-right: 3em;
+      }
+      #bottom {
+        background: #00C2A5;
+        height: 280px;
+        text-align:  center;
+      }
+      #bottom h1 {
+        font-size: 24px;
+      }
+  input {
+	   width: 300px;
+	    font-size: 13px;
+	     padding: 6px 0 2px 10px;
+	      border: 1px solid #cecece;
+	       background: #F6F6f6;
+  }
