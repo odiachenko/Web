@@ -4,15 +4,25 @@ body, html {
   padding: 0px;
   height: 100%;
 }
-  t1 {
+  t1  {
     float: left;
-    width: 50%;
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 20px;
   }
-  t2 #t3 #t4 {
-    float: right;
-    width: 50%;
-    margin: 0;
-    padding: 0.5em;
+  t11 {
+    color: #00C2A5;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  t2 {
+    margin-left: 50%;
+  }
+  t3 {
+    margin-left: 100px;
+  }
+  t4 {
+    margin-left: 100px;
   }
   container {
     width: 100%;
