@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="iphone.css" rel="stylesheet" type="text/css">
     <title>
       Iphone
     </title>
@@ -23,27 +25,36 @@
         <div id="post">
           <h1>Our awesome app is ready to use!</h1>
           <p id="postinfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur vero laboriosam adipisci dolores aut blanditiis necessitatibus inventore, eius fuga porro recusandae sint quis aliquam nam iure nihil beatae, atque quod!</p>
-            <button>Buy now!</button>
+            <button type="submit">Buy now!</button>
         </div>
       </div>
     </div>
       <div id="middle">
         <div id="column1">
-          <img src="stock.png">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+          </span>
           <div id="post">
             <h1>Web development</h1>
             <p id="postinfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nostrum suscipit vel ipsa fugiat tempore molestiae error aytem architecto eum, natus, voluptatum eos commodi debitis, expedita pariatur recusandae temporibus voluptatibus!</p>
           </div>
         </div>
         <div id="column2">
-          <img src="stock.png">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-android fa-stack-1x fa-inverse"></i>
+          </span>
           <div id="post">
             <h1>Mobile development</h1>
             <p id="postinfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit earum quidem repellendus, quasi omnis provident ipsam a quisquam sed consectetur aliquid esse corporis non, dolorem eius delectus deleniti tompore dolores.</p>
           </div>
         </div>
         <div id="column3">
-          <img src="stock.png">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-cloud fa-stack-1x fa-inverse"></i>
+          </span>
           <div id="post">
             <h1>Hightload</h1>
             <p id="postinfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Id itaque totam maxime doloremque inventore mollitia, fuga aut autem, sequi harum sapiente commodi recusandae, eligendi rerum iste consequuntur, quasi tempora atque!</p>
@@ -54,14 +65,30 @@
         <div id="post">
           <h1>Contact us!</h1>
           <form>
-            <p><input name="name" placeholder="Type here your name, please"></p>
-            <p><input name="email" placeholder="Type here your email, please"></p>
-            <p><input name="phone" placeholder="Type here your phone, please"></p>
-            <p><input name="question" placeholder="Ask your question"></p>
+            First name:<br>
+            <input type="text" name="firstname" placeholder="Type here your First name, please"><br>
+            Last name:<br>
+            <input type="text" name="lastname" placeholder="Type here your Last name, please"><br>
+            <p><input type="text" name="email" placeholder="Type here your email, please"></p>
+            <p><input type="checkbox" class="checkbox" name="data" id="checkbox">
+            <label for="checkbox">Save my data</label></p>
+            <p><input type="text" name="tel" placeholder="Type here your phone, please"></p>
+            <label for="country">Choose your country:</label></br>
+            <select id="country" name="country">
+              <option>UK</option>
+              <option selected>Ukraine</option>
+              <option>Germany</option>
+              <option>USA</option>
+            </select></br>
+            <input id="telNo" name="telNo" type="tel" required
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <span class="validity"></span>
+            <p><textarea placeholder = "Ask your question" cols="37" rows="5"></textarea></p>
           </form>
-          <button>Send email!</button>
+        <button type="submit">Send email!</button>
       </div>
+    </div>
   </container>
-<link href="iphone.css" rel="stylesheet" type="text/css">
+
 </body>
 </html>
